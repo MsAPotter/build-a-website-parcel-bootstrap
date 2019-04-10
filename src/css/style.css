@@ -1,8 +1,39 @@
 .login {
-    display: float;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(239,239,239);
+    height: 45px;
+    width: 130px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .container {
     margin: 0 auto;
+    width: 425px;
+    height: 625px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+.container2 {
+    width: 300px;
+    margin: 0 auto;
+}
+h1 {
+    color: rgb(52,52,52);
+    font-size: 32px;
+}
+h2 {
+    color: rgb(52,52,52);
+    font-size: 18px;
 }
 
