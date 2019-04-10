@@ -22,14 +22,16 @@ html(lang="en")
                 br
                 input#number(type="number", placeholder="Age" name="age")
                 br
-                button#signup-button(type="submit") Continue
+                button.color-box#continue(type="submit") Continue
                 p OR
-                button(type="submit") Continue with Facebook
+                button.color-box.flat#facebook(type="submit") Continue with Facebook
                 br
-                button(type="submit") Continue with Google
-                p By continuing, you agree to Pinterest's 
-                a(href="#") Terms of Service, 
-                a(href="#") Privacy Policy
-                a(href="#") Already a member? Log in
+                button.color-box.flat#google(type="submit") Continue with Google
+                p
+                    | By continuing, you agree to Pinterests 
+                    a.bold(href="#") Terms of Service
+                    | , 
+                    a.bold(href="#") Privacy Policy
+                a.member-login(href="#") Already a member? Log in
                 br
-                button(type="submit") Create a business account
+            button.business(type="submit") Create a business account
