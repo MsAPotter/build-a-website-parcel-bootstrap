@@ -7,31 +7,94 @@ html(lang="en")
         title Document
         link(href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet")
         link(rel="stylesheet", href="../css/style.css")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.1/css/all.css", integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf", crossorigin="anonymous")
         script(src="../js/main.js")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous")
+
     body
-        button.login Log in
-        div.container
-            div.container2
-                form(action="")
-                img(src="", alt="")
-                h1 Sign up to see more
-                h2 Access Pinterest's best ideas with a free account
-                input#email(type="email", placeholder="Email", name="email")
+
+        .signup-box
+            .inner-box
+                form
+                .form-group
+                    input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='Email')
+                .form-group
+                    input#exampleInputPassword1.form-control(type='password' placeholder='Create a Password')
+                .form-group.row
+                .col-sm-10
+                    input#colFormLabel.form-control(type='email' placeholder='Age')
+                .form-check
+                    
+                button.btn.btn-primary(type='submit') Continue
                 br
-                input#password(type="password", placeholder="Create a password", name="password")
+                button.btn.btn-primary.btn-lg.btn-block(type='button') Continue with Facebook
                 br
-                input#number(type="number", placeholder="Age" name="age")
+                button.btn.btn-primary.btn-lg.btn-block(type='button') Continue with Google
                 br
-                button.color-box#continue(type="submit") Continue
-                p OR
-                button.color-box.flat#facebook(type="submit") Continue with Facebook
-                br
-                button.color-box.flat#google(type="submit") Continue with Google
-                p
-                    | By continuing, you agree to Pinterests 
-                    a.bold(href="#") Terms of Service
-                    | , 
-                    a.bold(href="#") Privacy Policy
-                a.member-login(href="#") Already a member? Log in
-                br
-            button.business(type="submit") Create a business account
+            button.btn.btn-secondary.btn-lg.btn-block(type='button') Create a Business Account
+
+
+
+        container.background-of-cards
+            .row
+                .col-md-3
+                    img(src='https://placehold.it/300x250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placekitten.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
+            .row
+                .col-md-3
+                    img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placekitten.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placehold.it/300x250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placekitten.com/300/250' alt='Card image cap')
+            .row
+                .col-md-3
+                    img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placekitten.com/300/250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placehold.it/300x250' alt='Card image cap')
+                .col-md-3
+                    img(src='https://placekitten.com/300/250' alt='Card image cap')
+
+
+
+
+        //- LOGIN FORM BUILT WITHOUT BOOTSTRAP
+
+        //- button.login Log in
+        //- div.top-form
+        //-     div.container2
+        //-         form(action="")
+        //-         img(src="../images/Pinterest_Icon.png")
+        //-         h1 Sign up to see more
+        //-         h2 Access Pinterest's best ideas with a free account
+        //-         input#email(type="email", placeholder="Email", name="email")
+        //-         br
+        //-         input#password(type="password", placeholder="Create a password", name="password")
+        //-         br
+        //-         input#number(type="number", placeholder="Age" name="age")
+        //-         br
+        //-         button.color-box#continue(type="submit") Continue
+        //-         p OR
+        //-         button.color-box.flat#facebook(type="submit") Continue with Facebook
+        //-         br
+        //-         button.color-box.flat#google(type="submit") Continue with Google
+        //-         p
+        //-             | By continuing, you agree to Pinterests 
+        //-             a.bold(href="#") Terms of Service
+        //-             | , 
+        //-             a.bold(href="#") Privacy Policy
+        //-         a.member-login(href="#") Already a member? Log in
+        //-         br
+        //-     button.business(href="#" type="submit") Create a business account
+
+            

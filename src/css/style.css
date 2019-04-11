@@ -1,3 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.signup-box {
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    z-index: 5000;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #b3b0b0;
+    margin: 0 auto;
+}
+
+.inner-box {
+    width: 50%;
+    border: 1px solid red;
+}
+
+/******************  BACKGROUND ***********************/
+.row {
+    margin: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+.background-of-cards {
+    z-index: 0;
+    position: relative;
+}
+
+/******************  SIGNUP BOX ***********************/
+
+/* h1 {
+    color: rgb(52,52,52);
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+} */
+.btn-secondary.btn-lg {
+    border-top-left-radius: 0;
+}
+
+/* .container {
+    z-index: -1000;
+    position: relative;
+}
+.card-img-top {
+    height: 350px;
+    width: 250px;
+    border-radius: 5px;
+} */
+
+/*****************************************/
+
+/* body {
+    background: rgb(128, 125, 125);
+}
 .login {
     float: left;
     margin-top: 40px;
@@ -14,27 +78,28 @@
     vertical-align: middle;
 }
 
-.container {
+.top-form {
     margin: 0 auto;
-    width: 425px;
+    width: 450px;
     height: 650px;
     text-align: center;
     background-color: white;
     border-radius: 10px;
     border: 1px solid #b3b0b0;
-
 }
 .container2 {
     width: 275px;
     margin: 0 auto;
 }
-h1 {
-    color: rgb(52,52,52);
-    font-size: 32px;
-    width: 100%;
+img {
+    height: 45px;
+    width: 45px;
+    margin-top: 30px;
 }
+
+
 h2 {
-    /* color: rgb(52,52,52); */
+    
     color: black;
     font-size: 18px;
     font-weight: lighter;
@@ -58,7 +123,7 @@ input {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    /* outline: none; */
+   
     border: none;
 }
 
@@ -106,4 +171,4 @@ a {
     border-bottom-right-radius: 10px;
     padding: 10px;
     margin-top: 10px;
-}
+} */
