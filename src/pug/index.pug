@@ -4,7 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
+        title Pinterest Website Parcel and Bootstrap
         link(href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet")
         link(rel="stylesheet", href="../css/style.css")
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.1/css/all.css", integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf", crossorigin="anonymous")
@@ -16,8 +16,9 @@ html(lang="en")
 
         .signup-box
             .inner-box
-                h1 Sign up to see more
-                h2 Access Pinterest's best ideas with a free account
+                img(src="../images/Pinterest_Icon.png" class="icon")
+                h1.h1 Sign up to see more
+                h2.h2 Access Pinterest's best ideas with a free account
                 form
                 .form-group
                     input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='Email')
@@ -27,14 +28,20 @@ html(lang="en")
                     input#age.form-control(type='text' placeholder='Age')
                 
                 button.btn.btn-primary.btn-md.btn-block(type='submit') Continue
-                br
+                p.or OR
                 button.btn.btn-primary.btn-lg.btn-block.fb(type='button') Continue with Facebook
-                br
-                button.btn.btn-primary.btn-lg.btn-block.google(type='button') Continue with Google
+                button.btn.btn-primary.btn-lg.btn-block.google(type='button') Continue with Googlep
+                p    
+                    | By continuing, you agree to Pinterests 
+                    a.bold(href="#") Terms of Service
+                    | , 
+                    a.bold(href="#") Privacy Policy
+                a.member-login(href="#") Already a member? Log in
                 br
             button.btn.btn-secondary.btn-lg.btn-block(type='button') Create a Business Account
+            
 
-
+        
 
         container.background-of-cards
             .row
@@ -48,7 +55,7 @@ html(lang="en")
                     img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
             .row
                 .col-md-3
-                    img(src='http://www.fillmurray.com/300/250' alt='Card image cap')
+                    img(src='https://placehold.it/300x250' alt='Card image cap')
                 .col-md-3
                     img(src='https://placekitten.com/300/250' alt='Card image cap')
                 .col-md-3
