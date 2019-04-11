@@ -35,15 +35,11 @@ img {
 
 /******************  SIGNUP BOX ***********************/
 
-/* h1 {
+h1 {
     color: rgb(52,52,52);
     font-size: 16px;
     width: 100%;
 }
-
-.form-group {
-    width: 100%;
-} */
 
 .age {
     width: 100%;
@@ -66,6 +62,12 @@ button.btn.btn-primary.btn-lg.btn-block.google {
 
 .btn-secondary.btn-lg {
     border-top-left-radius: 0;
+    background: rgb(239,239,239);
+    border: rgb(239,239,239);
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+    height: 40px;
 }
 
 
