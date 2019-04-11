@@ -49,10 +49,25 @@ img {
     width: 100%;
     border: 1px red
 }
+button.btn.btn-primary.btn-md.btn-block {
+    background-color: rgb(230,0,35);
+    border: rgb(230,0,35);
+}
+button.btn.btn-primary.btn-lg.btn-block.fb {
+    background-color: rgb(57,81,136);
+    border: rgb(57,81,136);
+    border-radius: 2px;
+}
+button.btn.btn-primary.btn-lg.btn-block.google {
+    background-color: rgb(66, 133, 244);
+    border: rgb(66, 133, 244);
+    border-radius: 2px;
+}
 
 .btn-secondary.btn-lg {
     border-top-left-radius: 0;
 }
+
 
 /* .container {
     z-index: -1000;
